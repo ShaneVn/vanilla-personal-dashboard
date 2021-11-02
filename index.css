@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #aaaaaa;
+    color: white;
+    /* background-image: url("https://i.pinimg.com/originals/ed/7a/1f/ed7a1fbfb0562cff85c7b04148dda109.jpg"); */
+    
+}
+
+
+.top-weather{
+    display: flex;
+    margin-top: -10px;
+}
+
+
+
+
+
+#weather-city{
+    width: 100%;
+    text-align: right;
+    margin-top: -20px;
+}
+
+
+
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 15px;
+}
+
+div.top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+
+div#time-and-date{
+    /* align-self: center; */
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 1.5rem;
+}
+
+img#youtube{
+    width: 10%;
+  height: auto;
+}
+
+span{
+    margin-left: 10px;
+}
+
+.coin-top{
+    margin-top: 18px;
+}
+
